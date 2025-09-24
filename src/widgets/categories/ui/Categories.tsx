@@ -31,13 +31,13 @@ export const Categories = memo(() => {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-3 ">
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
+      <div className="grid grid-cols-3 gap-3 ">
+        <div className="border rounded-md border-gray-300 ">
+          <div className=" relative bg-gray-50 rounded-md ">
             <img className="pr-5" src={product} alt="" />
             <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
           </div>
-          <div>
+          <div className="px-3 ">
             <div className="flex ">
               <IoMdStar />
               <IoMdStar />
@@ -56,12 +56,12 @@ export const Categories = memo(() => {
             </div>
           </div>
         </div>
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
+        <div className="border rounded-md border-gray-300 ">
+          <div className=" relative bg-gray-50 rounded-md ">
             <img className="pr-5" src={product} alt="" />
             <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
           </div>
-          <div>
+          <div className="px-3 ">
             <div className="flex ">
               <IoMdStar />
               <IoMdStar />
@@ -80,12 +80,12 @@ export const Categories = memo(() => {
             </div>
           </div>
         </div>
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
+        <div className="border rounded-md border-gray-300 ">
+          <div className=" relative bg-gray-50 rounded-md ">
             <img className="pr-5" src={product} alt="" />
             <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
           </div>
-          <div>
+          <div className="px-3 ">
             <div className="flex ">
               <IoMdStar />
               <IoMdStar />
@@ -104,12 +104,12 @@ export const Categories = memo(() => {
             </div>
           </div>
         </div>
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
+        <div className="border rounded-md border-gray-300 ">
+          <div className=" relative bg-gray-50 rounded-md ">
             <img className="pr-5" src={product} alt="" />
             <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
           </div>
-          <div>
+          <div className="px-3 ">
             <div className="flex ">
               <IoMdStar />
               <IoMdStar />
@@ -128,12 +128,12 @@ export const Categories = memo(() => {
             </div>
           </div>
         </div>
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
+        <div className="border rounded-md border-gray-300 ">
+          <div className=" relative bg-gray-50 rounded-md ">
             <img className="pr-5" src={product} alt="" />
             <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
           </div>
-          <div>
+          <div className="px-3 ">
             <div className="flex ">
               <IoMdStar />
               <IoMdStar />
@@ -152,12 +152,12 @@ export const Categories = memo(() => {
             </div>
           </div>
         </div>
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
+        <div className="border rounded-md border-gray-300 ">
+          <div className=" relative bg-gray-50 rounded-md ">
             <img className="pr-5" src={product} alt="" />
             <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
           </div>
-          <div>
+          <div className="px-3 ">
             <div className="flex ">
               <IoMdStar />
               <IoMdStar />
@@ -176,54 +176,7 @@ export const Categories = memo(() => {
             </div>
           </div>
         </div>
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
-            <img className="pr-5" src={product} alt="" />
-            <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
-          </div>
-          <div>
-            <div className="flex ">
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
-              <p>(123)</p>
-            </div>
-            <div className="">
-              <p>
-                Seedra Cilantro Seeds for Planting <br /> Indoor and Outdoor
-              </p>
-              <p>
-                <strong>$12.56</strong>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="border rounded-md border-gray-400 p-3">
-          <div className=" relative bg-blue-50 rounded-xl">
-            <img className="pr-5" src={product} alt="" />
-            <FcLikePlaceholder className="absolute top-3 right-5 text-2xl bg-white rounded-full outline-4 outline-white" />
-          </div>
-          <div>
-            <div className="flex ">
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
-              <IoMdStar />
-              <p>(123)</p>
-            </div>
-            <div className="">
-              <p>
-                Seedra Cilantro Seeds for Planting <br /> Indoor and Outdoor
-              </p>
-              <p>
-                <strong>$12.56</strong>
-              </p>
-            </div>
-          </div>
-        </div>
+      
       </div>
     </div>
   );

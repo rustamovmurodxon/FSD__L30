@@ -1,22 +1,24 @@
 import { memo } from "react";
 import img from "@/shared/assets/Group 1.png"
 import img2 from "@/shared/assets/Rectangle 5.png"
+import hero from "@/shared/assets/Group 3.png"
 export const About = memo(() => {
   return (
     <div className="container mx-auto">
-      <div className="bg-[#EAF1EB] h-28 text-center py-2">
-        <h1 className="text-3xl font-bold">
-          <strong> Who we are and what we do</strong>
+      <div className="relative">
+        <img src={hero} alt="" className="bg-[#EAF1EB] h-full w-full" />
+        <h1 className="text-5xl font-bold absolute top-5 left-[25%]">
+           Who we are and what we do
         </h1>
-        <p>
-          Here you can find a lot of interesting and useful information that you
+        <p className="absolute flex text-center py-2 justify-center top-20 left-[25%] text-xl">
+          Here you can find a lot of interesting and useful information that you <br />
           need in gardening and creating a beautiful garden
         </p>
       </div>
 
 
-      <div className="flex gap-5">
-        <div className="py-5">
+      <div className="flex gap-5 ">
+        <div className="py-5  mr-20">
           <h1 className="text-2xl">
             <strong>Seedra helps to grow fast and efficiant</strong>
           </h1>
@@ -33,16 +35,16 @@ export const About = memo(() => {
             happy to produce this American-made product
           </p>
         </div>
-        <div>
-          <img src={img} alt="" />
+        <div className=" flex items-center">
+          <img className="w-full h-full mr-36" src={img} alt="" />
         </div>
       </div>
 
       <div className="flex gap-5">
-        <div>
-          <img src={img2} alt="" />
+        <div className=" flex items-center">
+          <img className="w-full h-full mr-36" src={img2} alt="" />
         </div>
-        <div className="py-5">
+        <div className="py-5  ml-20">
           <h1 className="text-2xl">
             <strong>Seedra helps to grow fast and efficiant</strong>
           </h1>

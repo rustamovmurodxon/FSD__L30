@@ -3,6 +3,7 @@ import { AiFillFire } from "react-icons/ai";
 import product from "@/shared/assets/image 2.png"
 import pic from "@/shared/assets/close-up-fresh-green-basil-herb-leaves-isolated-white-background 1.png"
 import { Categories } from "@/widgets/categories";
+import hero from "@/shared/assets/Group 2.png"
 export const Hero = memo(() => {
   return (
     <div className="container mx-auto">
@@ -27,9 +28,10 @@ export const Hero = memo(() => {
           </div>
         </div>
       </div>
-      <div className="text-center bg-amber-50 rounded-md py-2">
-        <h1><strong>We sell seeds</strong></h1>
-        <p>that always sprout and gardening supplies which never break</p>
+      <div className="text-center rounded-md py-2 relative">
+        <img className="w-full h-full border bg-amber-50" src={hero} alt="" />
+        <h1 className="absolute top-8 left-[45%] text-xl "><strong>We sell seeds</strong></h1>
+        <p className="absolute bottom-10 left-[30%] ">that always sprout and gardening supplies which never break</p>
       </div>
       <Categories/>
     </div>
