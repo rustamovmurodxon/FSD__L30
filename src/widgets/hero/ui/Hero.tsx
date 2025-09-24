@@ -29,7 +29,7 @@ export const Hero = memo(() => {
         </div>
       </div>
       <div className="text-center rounded-md py-2 relative">
-        <img className="w-full h-full border bg-amber-50" src={hero} alt="" />
+        <img className="w-full h-full bg-amber-50" src={hero} alt="" />
         <h1 className="absolute top-8 left-[45%] text-xl "><strong>We sell seeds</strong></h1>
         <p className="absolute bottom-10 left-[30%] ">that always sprout and gardening supplies which never break</p>
       </div>
